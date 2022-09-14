@@ -1,0 +1,58 @@
+@import "./fonts.scss" , "../abstract/functions";
+
+html {
+    font-size: 16px;
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family:$header-font, $body-font, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-size: 1rem;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+
+h1 {
+    font-family: $header-font;
+    line-height: 170px;
+    font-size: toRem(128);
+    font-weight: 900;
+}
+h2 {
+    font-family: $header-font;
+    line-height: 119px;
+    font-size: toRem(90);
+    font-weight: 900;    
+}
+h3 {
+    font-family: $header-font;
+    line-height: 53px;
+    font-size: toRem(40);
+    font-weight: 900;  
+}
+h4 {
+    font-family: $header-font;
+    line-height: 43px;
+    font-size: toRem(32);
+    font-weight: 900;  
+}
+pre {
+    font-family: $body-font;
+    line-height: 33px;
+    font-size: toRem(25);
+    font-weight: 300;  
+}
+title{
+    font-family: $body-font;
+    line-height: 48px;
+    font-size: toRem(36);
+    font-weight: 300;  
+}
